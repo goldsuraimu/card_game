@@ -111,7 +111,7 @@ const controller = {
   },
 
   dispatchCardAction (card) {
-    if(!card.classList.contains('.back')) return;
+    if(!card.classList.contains('back')) return;
     switch(this.currentState) {
       case GAME_STATE.FirstCardAwaites:
         view.flipCards(card);
